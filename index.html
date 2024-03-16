@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <img src="./images/dom-casmurro.jpeg" alt="Capa_do_Livro">
-    <p>Capitulo 1</p>
-    <p>Machado de Assis</p>
-    <div id="container-botoes">
-        <button>Voltar</button>
-        <button>Play</button>
-        <button>Avançar</button>
+    <div class="container-aplicativo">
+        <img src="./images/dom-casmurro.jpeg" alt="Capa_do_Livro">
+        <div id="informacoes-faixa">
+            <p id="capitulo">Capitulo 1</p>
+            <p id="nome-autor">Machado de Assis</p>
+        </div>
+        <div id="container-botoes">
+            <button id="anterior" class="bi bi-skip-backward-fill"></button>
+            <button id="play-pause" class="bi bi-play-circle-fill"></button>
+            <button id="proximo" class="bi bi-skip-forward-fill"></button>
+        </div>
     </div>
     <!-- <h1>Titulo da pagina!</h1>
     <p id="subtitulo">Sub titulo da minha pagina</p>
